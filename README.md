@@ -110,6 +110,7 @@ uv run python -m bizintel.storytelling_case
 
 # TASK 2: run your own storytelling module that looks at a different problem
 # add your command in the line below
+uv run python -m bizintel.storytelling_smith
 
 
 # run common chores
@@ -142,42 +143,45 @@ You accidentally started Python interactive mode.
 It happens.
 Press `Ctrl+c` (both keys together) or `Ctrl+Z` then `Enter` on Windows.
 
-## Example Output (Remove or replace this Section after You Verify)
+## Modified Project Output
+
+For my technical modification, I changed the selected region from East to West.
+The project still found Office as the leading category, but the sales results
+changed based on the West region.
 
 ```shell
-| BI | Loading reporting-ready data
-| BI |   Loaded 2392 reporting rows
-| BI |   Verified 14 reporting columns
-| BI | CALL a function to summarize sales by category........
-| BI | Summarizing category sales for Region = 'East'
+| BI | Summarizing category sales for Region = 'West'
 | BI |   Categories summarized: 4
-| BI | CALL a function to select the leading category........
 | BI |   Selected leading category for deeper analysis: Office
-| BI | CALL a function to summarize monthly sales........
-| BI | Summarizing monthly sales for Region = 'East'
+| BI | Summarizing monthly sales for Region = 'West'
 | BI | Summarizing monthly sales for Category = 'Office'
 | BI |   Months summarized: 12
-| BI | CALL a function to plot category sales........
-| BI | Creating chart: Sales by Category in East
-| BI | Saved category chart: = docs\images\storytelling_category_sales_case.png
-| BI | CALL a function to plot monthly sales........
-| BI | Creating chart: Monthly Office Sales in East
-| BI | Saved monthly chart: = docs\images\storytelling_monthly_sales_case.png
-| BI | CALL a function to identify key results........
+| BI | Creating chart: Sales by Category in West
+| BI | Creating chart: Monthly Office Sales in West
 | BI | Identifying key results
-| BI |   Selected region: East
+| BI |   Selected region: West
 | BI |   Leading category: Office
-| BI |   Leading category sales: $456,342.94
-| BI |   Strongest month: 2025-05
-| BI |   Strongest month sales: $61,229.06
-| BI | CALL a function to show charts........
-| BI | App workflow complete
-| BI | CLOSE chart windows to continue.
-| BI | Terminate this process with CTRL+c as needed.
+| BI |   Leading category sales: $156,047.48
+| BI |   Strongest month: 2025-03
+| BI |   Strongest month sales: $20,794.91
 | BI | ========================
 | BI | Executed successfully!
 | BI | ========================
 ```
+
+## Findings and Visuals
+
+The West region had Office as its leading product category with
+$156,047.48 in total sales. March 2025 was the strongest month for
+Office sales with $20,794.91.
+
+### Sales by Category in the West
+
+![Sales by Category in West](docs/images/storytelling_category_sales_smith.png)
+
+### Monthly Office Sales in the West
+
+![Monthly Office Sales in West](docs/images/storytelling_monthly_sales_smith.png)
 
 ## Findings and Visuals
 

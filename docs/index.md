@@ -41,31 +41,31 @@ but answer a different business question.
 
 ## Phase 4. Technical Modification
 
-Make one small technical modification to the example project.
+For my technical modification, I copied `storytelling_case.py` and created
+`storytelling_smith.py`. I changed the selected region from East to West and
+changed the chart output names so they would not overwrite the original charts.
 
-Possible modifications include:
+I chose this change because I wanted to see how the results would change when
+looking at a different region.
 
-- Change a selected value.
-- Change a chart title.
-- Change a chart label.
-- Change a chart palette.
-- Change a chart output file name.
-- Display in a different sort order.
-- Change a log message to be more clear or better formatted.
+After running the modified project, Office was still the leading category in
+the West with $156,047.48 in sales. March 2025 was the strongest month with
+$20,794.91 in Office sales.
 
-Describe your small technical modification to the example project.
+The modification worked because the project ran successfully and created two
+new charts for the West region.
 
-Include:
+### Sales by Category in the West
 
-- What you changed
-- Why you chose that change
-- How you verified that it worked
-- What result, output, chart, metric, or behavior confirmed the change
+![Sales by Category in West](images/storytelling_category_sales_smith.png)
 
-Compared with the example project,
-explain what is different and why the change matters.
+### Monthly Office Sales in the West
 
-Was it easy, or surprisingly challenging and why do you think so?
+![Monthly Office Sales in West](images/storytelling_monthly_sales_smith.png)
+
+This was an easy change because the project already had a setting for the
+selected region. I only had to change the region and update the output file
+names.
 
 ## Phase 5. Custom Project
 
