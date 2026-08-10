@@ -52,9 +52,6 @@ After running the modified project, Office was still the leading category in
 the West with $156,047.48 in sales. March 2025 was the strongest month with
 $20,794.91 in Office sales.
 
-The modification worked because the project ran successfully and created two
-new charts for the West region.
-
 ### Sales by Category in the West
 
 ![Sales by Category in West](images/storytelling_category_sales_smith.png)
@@ -69,97 +66,65 @@ names.
 
 ## Phase 5. Custom Project
 
-Describe your custom BI storytelling project.
-
 ### Basis and Problem
 
-Describe the data you started with.
+I used the reporting-ready sales data to look at how much each customer
+contributed to total sales.
 
-Include:
+I used CustomerID, CustomerName, TransactionID, and SaleAmount because these
+columns helped me group sales by customer and calculate total sales.
 
-- Which tables you queried and which columns you used
-- Why those columns are relevant to your business goal
-- Any data limitations that affect your conclusions
+One limitation is that the data shows how much customers spent, but not why
+they spent more or less.
 
 ### Business Question
 
-State the exact business question you chose.
+> How concentrated are total sales among customers, and how many customers
+> generate 80% of company revenue?
 
-For example:
-
-> Which product category has the lowest total sales in the selected region, and during which month are its sales weakest?
-
-Your question should be:
-
-- Clear
-- Specific
-- Answerable with the available data
-- Similar in scope to the example project
-
-Explain:
-
-- Why the question might matter to the business
-- What decision or next step the result could support
-- What **action** could be taken based on the answer
+This matters because the business should know if most sales come from only a
+few customers or from a larger customer base.
 
 ### Analysis Approach
 
-Describe how you answered the question.
+I grouped the data by customer, added up total sales, and ranked the customers
+from highest to lowest.
 
-Include:
-
-- How you filtered the reporting data
-- Which dimension you grouped by
-- Which measure you aggregated
-- Whether you sorted from highest to lowest or lowest to highest
-- How the first result guided the second part of the analysis
-- Which charts you created
+The first chart shows the top 10 customers by total sales. The second chart
+shows how many customers are needed to reach 80% of total sales.
 
 ### Charts and Evidence
 
-Create at least two connected charts.
+#### Top 10 Customers by Total Sales
 
-The first chart should answer the first part of your business question,
-often an initial comparison or result.
+![Top 10 Customers by Total Sales](images/top_customers_sales_smith.png)
 
-The second chart should be a connected look deeper at that initial result.
+Terri Long was the top customer with about $147,500 in total sales.
 
-For each chart:
+#### Customer Concentration
 
-- Use a clear title
-- Label the axes
-- Make the chart readable
-- Save the chart in the project
-- Display the chart in this documentation page
-- Explain what evidence the chart provides
+![Customer Concentration](images/customer_revenue_pareto_smith.png)
+
+About 115 out of 200 customers were needed to generate 80% of total sales.
 
 ### Findings and Recommendation
 
-Describe what you found and what you recommend.
+Sales are spread across a large part of the customer base instead of depending
+on only a few customers.
 
-Include:
+I would focus on keeping the highest-spending customers while also finding ways
+to increase sales from other customers.
 
-- The main result of your analysis
-- Whether the result was expected or surprising
-- A specific recommended business action based on the data
-- One reasonable action or next question
-- Any limitations or cautions
+A good next step would be to look at what products the highest-value customers
+are buying.
 
 ### Storytelling Summary
 
-Summarize your custom storytelling project.
+This project looked at how sales were spread across customers.
 
-Include:
+Terri Long was the top customer with about $147,500 in sales, and about 115 of
+the 200 customers were needed to generate 80% of total sales.
 
-- The business question / problem / goal you addressed
-- The data you started with
-- The main result
-- The insight you produced
-- The action or next question you recommended
-- What you learned about BI storytelling
-- How this process could support business intelligence in general
-
-Display at least two charts along with your narrative:
-
-1. A chart showing the initial comparison
-2. A chart showing the deeper analysis of the selected result
+The results show that the company depends on a fairly large part of its customer
+base instead of only a few customers. This type of analysis could help with
+customer retention and promotion decisions.

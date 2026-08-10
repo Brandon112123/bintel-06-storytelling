@@ -108,10 +108,11 @@ uv run python -m bizintel.app_case
 # TASK 1: run the example storytelling module for an example problem
 uv run python -m bizintel.storytelling_case
 
-# TASK 2: run your own storytelling module that looks at a different problem
-# add your command in the line below
+# TASK 2: run my modified storytelling project
 uv run python -m bizintel.storytelling_smith
 
+# TASK 3: run my custom customer analysis
+uv run python -m bizintel.storytelling_custom_smith
 
 # run common chores
 uv run ruff format .
@@ -185,22 +186,35 @@ Office sales with $20,794.91.
 
 ## Findings and Visuals
 
-Take screenshots of your charts and provide them here with a discussion.
-In Markdown, display a figure using:
-an exclamation mark immediately followed by square brackets containing a useful caption
-immediately followed by parentheses containing the relative path to your figure.
+### Phase 4 - West Region Analysis
 
-In your custom project:
+The West region had Office as its leading product category with
+$156,047.48 in total sales. March 2025 was the strongest month with
+$20,794.91 in sales.
 
-- your figures and narrative should reflect your work
-- this `README.md` should include your commands, process, and visuals
-- `docs/index.md` should include your narrative
+#### Sales by Category in the West
 
-Replace these placeholders with screenshots from your own project run:
+![Sales by Category in West](docs/images/storytelling_category_sales_smith.png)
 
-![Total Sales by Region](./docs/images/Figure_1.png)
+#### Monthly Office Sales in the West
 
-![Total Sales by Product Category](./docs/images/Figure_2.png)
+![Monthly Office Sales in West](docs/images/storytelling_monthly_sales_smith.png)
+
+### Phase 5 - Customer Sales Analysis
+
+For my custom project, I looked at how sales were spread across customers.
+
+#### Top 10 Customers by Total Sales
+
+![Top 10 Customers](docs/images/top_customers_sales_smith.png)
+
+Terri Long was the top customer with about $147,500 in total sales.
+
+#### Customer Concentration
+
+![Customer Concentration](docs/images/customer_revenue_pareto_smith.png)
+
+About 115 out of 200 customers were needed to generate 80% of total sales.
 
 ## Project Documentation
 

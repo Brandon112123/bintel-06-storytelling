@@ -224,3 +224,136 @@
 2026-08-09 16:12:54 | INFO | BI | ========================
 2026-08-09 16:12:54 | INFO | BI | Executed successfully!
 2026-08-09 16:12:54 | INFO | BI | ========================
+2026-08-09 19:41:46 | INFO | BI | === RUN START ===
+2026-08-09 19:41:46 | INFO | BI | project=BI
+2026-08-09 19:41:46 | INFO | BI | repo_dir=bintel-06-storytelling
+2026-08-09 19:41:46 | INFO | BI | python=3.14.6
+2026-08-09 19:41:46 | INFO | BI | os=Darwin 25.5.0
+2026-08-09 19:41:46 | INFO | BI | shell=zsh
+2026-08-09 19:41:46 | INFO | BI | cwd=.
+2026-08-09 19:41:46 | INFO | BI | github_actions=False
+2026-08-09 19:41:46 | INFO | BI | START custom customer concentration analysis
+2026-08-09 19:41:46 | INFO | BI | Loading reporting-ready sales data
+2026-08-09 19:41:46 | INFO | BI |   Loaded 2392 sales transactions
+2026-08-09 19:41:46 | INFO | BI |   Customers summarized: 200
+2026-08-09 19:41:46 | INFO | BI | Saved chart: docs/images/top_customers_sales_smith.png
+2026-08-09 19:41:46 | INFO | BI | Saved chart: docs/images/customer_revenue_pareto_smith.png
+2026-08-09 19:41:46 | INFO | BI | Identifying key results
+2026-08-09 19:41:46 | INFO | BI |   Total customers: 200
+2026-08-09 19:41:46 | INFO | BI |   Top customer: Terri Long
+2026-08-09 19:41:46 | INFO | BI |   Top customer sales: $147,510.07
+2026-08-09 19:41:46 | INFO | BI |   Customers needed for 80% of sales: 115
+2026-08-09 19:41:46 | INFO | BI |   Percent of customers needed: 57.5%
+2026-08-09 19:41:46 | INFO | BI | Custom storytelling workflow complete
+2026-08-09 19:41:46 | INFO | BI | Executed successfully!
+2026-08-09 19:43:21 | INFO | BI | === RUN START ===
+2026-08-09 19:43:21 | INFO | BI | project=BI
+2026-08-09 19:43:21 | INFO | BI | repo_dir=bintel-06-storytelling
+2026-08-09 19:43:21 | INFO | BI | python=3.14.6
+2026-08-09 19:43:21 | INFO | BI | os=Darwin 25.5.0
+2026-08-09 19:43:21 | INFO | BI | shell=zsh
+2026-08-09 19:43:21 | INFO | BI | cwd=.
+2026-08-09 19:43:21 | INFO | BI | github_actions=False
+2026-08-09 19:43:21 | INFO | BI | START custom customer concentration analysis
+2026-08-09 19:43:21 | INFO | BI | Loading reporting-ready sales data
+2026-08-09 19:43:21 | INFO | BI |   Loaded 2392 sales transactions
+2026-08-09 19:43:21 | INFO | BI |   Customers summarized: 200
+2026-08-09 19:43:21 | INFO | BI | Saved 3D chart: docs/images/top_customers_sales_smith.png
+2026-08-09 19:43:21 | INFO | BI | Saved chart: docs/images/customer_revenue_pareto_smith.png
+2026-08-09 19:43:21 | INFO | BI | Identifying key results
+2026-08-09 19:43:21 | INFO | BI |   Total customers: 200
+2026-08-09 19:43:21 | INFO | BI |   Top customer: Terri Long
+2026-08-09 19:43:21 | INFO | BI |   Top customer sales: $147,510.07
+2026-08-09 19:43:21 | INFO | BI |   Customers needed for 80% of sales: 115
+2026-08-09 19:43:21 | INFO | BI |   Percent of customers needed: 57.5%
+2026-08-09 19:43:21 | INFO | BI | Custom storytelling workflow complete
+2026-08-09 19:43:21 | INFO | BI | Executed successfully!
+2026-08-09 19:47:19 | INFO | BI | === RUN START ===
+2026-08-09 19:47:19 | INFO | BI | project=BI
+2026-08-09 19:47:19 | INFO | BI | repo_dir=bintel-06-storytelling
+2026-08-09 19:47:19 | INFO | BI | python=3.14.6
+2026-08-09 19:47:19 | INFO | BI | os=Darwin 25.5.0
+2026-08-09 19:47:19 | INFO | BI | shell=zsh
+2026-08-09 19:47:19 | INFO | BI | cwd=.
+2026-08-09 19:47:19 | INFO | BI | github_actions=False
+2026-08-09 19:47:19 | INFO | BI | START custom customer concentration analysis
+2026-08-09 19:47:19 | INFO | BI | Loading reporting-ready sales data
+2026-08-09 19:47:19 | INFO | BI |   Loaded 2392 sales transactions
+2026-08-09 19:47:19 | INFO | BI |   Customers summarized: 200
+2026-08-09 19:47:20 | INFO | BI | Saved 3D customer sales chart: docs/images/top_customers_sales_smith.png
+2026-08-09 19:47:20 | INFO | BI | Saved chart: docs/images/customer_revenue_pareto_smith.png
+2026-08-09 19:47:20 | INFO | BI | Identifying key results
+2026-08-09 19:47:20 | INFO | BI |   Total customers: 200
+2026-08-09 19:47:20 | INFO | BI |   Top customer: Terri Long
+2026-08-09 19:47:20 | INFO | BI |   Top customer sales: $147,510.07
+2026-08-09 19:47:20 | INFO | BI |   Customers needed for 80% of sales: 115
+2026-08-09 19:47:20 | INFO | BI |   Percent of customers needed: 57.5%
+2026-08-09 19:47:20 | INFO | BI | Custom storytelling workflow complete
+2026-08-09 19:47:20 | INFO | BI | Executed successfully!
+2026-08-09 20:12:31 | INFO | BI | === RUN START ===
+2026-08-09 20:12:31 | INFO | BI | project=BI
+2026-08-09 20:12:31 | INFO | BI | repo_dir=bintel-06-storytelling
+2026-08-09 20:12:31 | INFO | BI | python=3.14.6
+2026-08-09 20:12:31 | INFO | BI | os=Darwin 25.5.0
+2026-08-09 20:12:31 | INFO | BI | shell=zsh
+2026-08-09 20:12:31 | INFO | BI | cwd=.
+2026-08-09 20:12:31 | INFO | BI | github_actions=False
+2026-08-09 20:12:31 | INFO | BI | ========================
+2026-08-09 20:12:31 | INFO | BI | START main()
+2026-08-09 20:12:31 | INFO | BI | ========================
+2026-08-09 20:12:31 | INFO | BI | Input reporting data from: = data/reporting/sales_reporting_case.csv
+2026-08-09 20:12:31 | INFO | BI | CALL a function to load reporting-ready data........
+2026-08-09 20:12:31 | INFO | BI | Loading reporting-ready data
+2026-08-09 20:12:31 | INFO | BI |   Loaded 2392 reporting rows
+2026-08-09 20:12:31 | INFO | BI |   Verified 14 reporting columns
+2026-08-09 20:12:31 | INFO | BI | CALL a function to summarize sales by category........
+2026-08-09 20:12:31 | INFO | BI | Summarizing category sales for Region = 'West'
+2026-08-09 20:12:31 | INFO | BI |   Categories summarized: 4
+2026-08-09 20:12:31 | INFO | BI | CALL a function to select the leading category........
+2026-08-09 20:12:31 | INFO | BI |   Selected leading category for deeper analysis: Office
+2026-08-09 20:12:31 | INFO | BI | CALL a function to summarize monthly sales........
+2026-08-09 20:12:31 | INFO | BI | Summarizing monthly sales for Region = 'West'
+2026-08-09 20:12:31 | INFO | BI | Summarizing monthly sales for Category = 'Office'
+2026-08-09 20:12:31 | INFO | BI |   Months summarized: 12
+2026-08-09 20:12:31 | INFO | BI | CALL a function to plot category sales........
+2026-08-09 20:12:31 | INFO | BI | Creating chart: Sales by Category in West
+2026-08-09 20:12:32 | INFO | BI | Saved category chart: = docs/images/storytelling_category_sales_smith.png
+2026-08-09 20:12:32 | INFO | BI | CALL a function to plot monthly sales........
+2026-08-09 20:12:32 | INFO | BI | Creating chart: Monthly Office Sales in West
+2026-08-09 20:12:32 | INFO | BI | Saved monthly chart: = docs/images/storytelling_monthly_sales_smith.png
+2026-08-09 20:12:32 | INFO | BI | CALL a function to identify key results........
+2026-08-09 20:12:32 | INFO | BI | Identifying key results
+2026-08-09 20:12:32 | INFO | BI |   Selected region: West
+2026-08-09 20:12:32 | INFO | BI |   Leading category: Office
+2026-08-09 20:12:32 | INFO | BI |   Leading category sales: $156,047.48
+2026-08-09 20:12:32 | INFO | BI |   Strongest month: 2025-03
+2026-08-09 20:12:32 | INFO | BI |   Strongest month sales: $20,794.91
+2026-08-09 20:12:32 | INFO | BI | CALL a function to show charts........
+2026-08-09 20:12:34 | INFO | BI | Storytelling workflow complete
+2026-08-09 20:12:34 | INFO | BI | CLOSE chart windows to continue.
+2026-08-09 20:12:34 | INFO | BI | Terminate this process with CTRL+c as needed.
+2026-08-09 20:12:34 | INFO | BI | ========================
+2026-08-09 20:12:34 | INFO | BI | Executed successfully!
+2026-08-09 20:12:34 | INFO | BI | ========================
+2026-08-09 20:23:16 | INFO | BI | === RUN START ===
+2026-08-09 20:23:16 | INFO | BI | project=BI
+2026-08-09 20:23:16 | INFO | BI | repo_dir=bintel-06-storytelling
+2026-08-09 20:23:16 | INFO | BI | python=3.14.6
+2026-08-09 20:23:16 | INFO | BI | os=Darwin 25.5.0
+2026-08-09 20:23:16 | INFO | BI | shell=zsh
+2026-08-09 20:23:16 | INFO | BI | cwd=.
+2026-08-09 20:23:16 | INFO | BI | github_actions=False
+2026-08-09 20:23:16 | INFO | BI | START custom customer concentration analysis
+2026-08-09 20:23:16 | INFO | BI | Loading reporting-ready sales data
+2026-08-09 20:23:16 | INFO | BI |   Loaded 2392 sales transactions
+2026-08-09 20:23:16 | INFO | BI |   Customers summarized: 200
+2026-08-09 20:23:16 | INFO | BI | Saved 3D customer sales chart: docs/images/top_customers_sales_smith.png
+2026-08-09 20:23:16 | INFO | BI | Saved chart: docs/images/customer_revenue_pareto_smith.png
+2026-08-09 20:23:16 | INFO | BI | Identifying key results
+2026-08-09 20:23:16 | INFO | BI |   Total customers: 200
+2026-08-09 20:23:16 | INFO | BI |   Top customer: Terri Long
+2026-08-09 20:23:16 | INFO | BI |   Top customer sales: $147,510.07
+2026-08-09 20:23:16 | INFO | BI |   Customers needed for 80% of sales: 115
+2026-08-09 20:23:16 | INFO | BI |   Percent of customers needed: 57.5%
+2026-08-09 20:23:16 | INFO | BI | Custom storytelling workflow complete
+2026-08-09 20:23:16 | INFO | BI | Executed successfully!
